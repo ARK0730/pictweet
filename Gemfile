@@ -68,6 +68,7 @@ group :development, :test do
   gem 'sprockets'
   gem 'kaminari'
   gem 'devise'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '~> 3.5'
   gem 'factory_bot_rails'
+  gem 'rails-controller-testing'
 end
